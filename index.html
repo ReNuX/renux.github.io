@@ -1,5 +1,3 @@
-g = _.a.get("https://api.x.immutable.com/v1/orders?include_fees=true&status=active&sell_token_address=0xacb3c6a43d15b907e8433077b6d38ae40936fe2c&buy_token_type=ETH&sell_metadata=".concat(m, "&order_by=buy_quantity&direction=asc&page_size=5")).then((function(e) {
-											var t, a, r, s, n = null === (t = e.data.result) || void 0 === t || null === (a = t[0]) || void 0 === a ? void 0 : a.order_id,
-												i = null === (r = e.data.result) || void 0 === r || null === (s = r[1]) || void 0 === s ? void 0 : s.order_id;
-											n && c.push(n + ""), i && c.push(i + "")
-										}))
+GET /echo HTTP/1.1
+Host: reqbin.com
+Accept: text/html
